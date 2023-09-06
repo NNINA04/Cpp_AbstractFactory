@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Interfaces">
+      <UniqueIdentifier>{63394e68-8998-4af1-ad3b-088d1406784e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Companies">
+      <UniqueIdentifier>{6a5bf071-b85f-476f-875f-56a33c2d31cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Companies\AsusProducts">
+      <UniqueIdentifier>{54c135aa-0353-4348-a2a0-4a20b6ff0685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Companies\MsiProducts">
+      <UniqueIdentifier>{780c2d7f-5b4b-4331-88c4-d4bd4749d1a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IGPU.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IMonitor.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="MsiManufacturer.h">
+      <Filter>Header Files\Companies</Filter>
+    </ClInclude>
+    <ClInclude Include="Company.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AsusManufacturer.h">
+      <Filter>Header Files\Companies</Filter>
+    </ClInclude>
+    <ClInclude Include="MsiGPU.h">
+      <Filter>Header Files\Companies\MsiProducts</Filter>
+    </ClInclude>
+    <ClInclude Include="AsusGPU.h">
+      <Filter>Header Files\Companies\AsusProducts</Filter>
+    </ClInclude>
+    <ClInclude Include="MsiMonitor.h">
+      <Filter>Header Files\Companies\MsiProducts</Filter>
+    </ClInclude>
+    <ClInclude Include="AsusMonitor.h">
+      <Filter>Header Files\Companies\AsusProducts</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
